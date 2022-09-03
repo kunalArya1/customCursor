@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    overflow: hidden;
+    cursor: none;
+    height: 100%;
+    width: 100%;
+}#main{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+#cursor{
+    transition: transform ease 0.2s;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:#fff;
+    position: absolute;
+    mix-blend-mode: difference;
+}
